@@ -1,0 +1,238 @@
+/* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #58a8f7;
+    color: white;
+    
+
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    height: 10px;
+    
+  }
+  
+  .nav-links {
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+  }
+  .Sign-up button{
+    background-color: #007bff;
+  color: white;
+  border: none;
+  position: absolute;
+  
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  .Log-in-button{
+    background-color: #007bff;
+  color: white;
+  border: none;
+  top:0.7rem;
+  left: 84rem;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  .auth-buttons button {
+    background-color: #f77213;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+  }
+  .trip-planner{
+    right: 80rem;
+    top: 1rem;
+    position: absolute;
+  }
+  .thing-to-do{
+    right: 72rem;
+    top: 1rem;  
+    position: absolute;
+
+  }
+  .About{
+    right: 67rem;
+    top: 1rem;  
+    position: absolute;
+  }
+  
+  .auth-buttons button:hover {
+    background-color: #0056b3;
+  }/* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #58a8f7;
+    color: white;
+    
+
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    height: 10px;
+    
+  }
+  
+  .nav-links {
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+  }
+  .Sign-up button{
+    background-color: #007bff;
+  color: white;
+  border: none;
+  position: absolute;
+  
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  .Log-in-button{
+    background-color: #007bff;
+  color: white;
+  border: none;
+  top:0.7rem;
+  left: 84rem;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  .auth-buttons button {
+    background-color: #f77213;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+  }
+  .trip-planner{
+    right: 80rem;
+    top: 1rem;
+    position: absolute;
+  }
+  .thing-to-do{
+    right: 72rem;
+    top: 1rem;  
+    position: absolute;
+
+  }
+  .About{
+    right: 67rem;
+    top: 1rem;  
+    position: absolute;
+  }
+  
+  .auth-buttons button:hover {
+    background-color: #0056b3;
+  }/* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #58a8f7;
+    color: white;
+    
+
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    height: 10px;
+    
+  }
+  
+  .nav-links {
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+  }
+  .Sign-up button{
+    background-color: #007bff;
+  color: white;
+  border: none;
+  position: absolute;
+  
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  .Log-in-button{
+    background-color: #007bff;
+  color: white;
+  border: none;
+  top:0.7rem;
+  left: 84rem;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  .auth-buttons button {
+    background-color: #f77213;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+  }
+  .trip-planner{
+    right: 80rem;
+    top: 1rem;
+    position: absolute;
+  }
+  .thing-to-do{
+    right: 72rem;
+    top: 1rem;  
+    position: absolute;
+
+  }
+  .About{
+    right: 67rem;
+    top: 1rem;  
+    position: absolute;
+  }
+  
+  .auth-buttons button:hover {
+    background-color: #0056b3;
+  }
