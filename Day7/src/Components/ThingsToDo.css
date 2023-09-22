@@ -1,0 +1,89 @@
+/* ThingsToDo.css */
+
+/* Overall app styles */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.in2{
+  height: 100%;
+  background-color: #9fc8f1;
+}
+.touriest {
+    text-align: center;
+    font-family: Arial, sans-serif;
+   
+  
+  }
+  .things-container{
+    background-color: aqua;
+    
+  }
+  
+  /* Page header styles */
+  /* h1 {
+    font-size: 24px;
+ 
+  } */
+  
+  /* Search bar styles */
+  .in1{
+    width: 30%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #eb4b4b;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-left: 0%;
+    background-color: #9fc8f1;
+  }
+  /* .tb1 {
+    width: 30%; */
+    /* padding: 15px; */
+    /* font-size: 16px;
+    border: 1px solid #eb4b4b;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-left: 34%;
+    background-color: #9fc8f1;
+  } */
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #58a8f7;
+  color: white */
+  
+  /* Tourist spot list styles */
+  .tourist-spot-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Tourist spot card styles */
+  .tourist-spot {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  /* Tourist spot image styles */
+  .tourist-spot img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .tourist-spot {
+      width: 100%;
+    }
+  }
+  

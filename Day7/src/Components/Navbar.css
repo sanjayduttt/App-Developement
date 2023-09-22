@@ -1,0 +1,189 @@
+/* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #58a8f7;
+   
+    
+
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    height: 10px;
+    
+  }
+  
+  .nav-links {
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+  }
+  .Sign-up button{
+    background-color: #007bff;
+  color: white;
+  border: none;
+  position: absolute;
+  
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  .Log-in-button{
+    background-color: #007bff;
+  color: white;
+  border: none;
+  top:0.7rem;
+  left: 84rem;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  .auth-buttons button {
+    background-color: #f77213;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+  }
+  .trip-planner{
+    right: 74rem;
+    top: 1rem;
+    position: absolute;
+  }
+  .thing-to-do{
+    right: 67rem;
+    top: 1rem;  
+    position: absolute;
+
+  }
+  .About{
+    right: 63rem;
+    top: 1rem;  
+    position: absolute;
+  }
+  .Help
+  {
+    right: 60rem;
+    top: 1rem;  
+    position: absolute;
+  }
+  
+  .auth-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  /* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #46a1de;
+    color: white;
+    padding: 10px 20px;
+  } */
+  
+  .hamburger-icon {
+    cursor: pointer;
+  }
+  
+  .hamburger-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(78, 32, 32);
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+  
+  .menu-open .hamburger-icon .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .menu-open .hamburger-icon .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-open .hamburger-icon .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 89.36%;
+    width: 220px;
+    margin-top: 4.6%;
+    background-color: #58a8f7db;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    transition: 0.4s;
+    transform: translateX(-100%);
+  }
+  
+  .menu-open .menu {
+    transform: translateX(0);
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+  }
+  
+  .menu li {
+    border-bottom: black solid 1px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: rgb(17, 2, 2);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0%;
+    border: 10%;
+    border-radius: 20%;
+  }
+  .Sign-up button{
+    background-color: #007bff;
+  color: white;
+  border: none;
+  position: absolute;
+  padding-bottom: 100px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  .Log-in-button{
+    background-color: #007bff;
+  color: white;
+  border: none;
+  top:1.2rem;
+  left: 74rem;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  
+ /* Add additional styles as needed */
