@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Dancing+Script&family=Roboto+Slab:wght@300&display=swap");
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("C:\Users\Rocky\Desktop\React\project\src\Components\Images\1432168.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.signup-form-container {
+  background: rgba(11, 117, 223, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(184, 159, 159, 0.1);
+  width: 30%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: box-shadow 0.5s ease;
+}
+.signup-form-container:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.signup-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form-container-input {
+  display: flex;
+  flex-direction: column;
+}
+.signup-form-container-input input {
+  margin-top: 30px;
+  margin-bottom: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.signup-form-container-input h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: "Crimson Text", serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Roboto Slab", serif;
+}
+
+.signup-form-container-input-name {
+  display: flex;
+  gap: 10px;
+}
+
+.signup-form-container-input-name input {
+  flex-grow: 1;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+.signup-form-container-input input:focus {
+  outline: none;
+  color: #fff;
+  background-color: rgb(90, 140, 234);
+}
+.signup-form-container-input input::placeholder {
+  color: black;
+  font-family: "Crimson Text", serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Roboto Slab", serif;
+}
+
+.btn {
+  background-color: #4a82cb;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Crimson Text", serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Roboto Slab", serif;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #c97040;
+}
+
+.signup-link {
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Crimson Text", serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Roboto Slab", serif;
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    height: 100vh;
+    width: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

@@ -1,0 +1,25 @@
+.terms-conditions {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .terms-conditions p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Lato", sans-serif;
+    font-family: "Oswald", sans-serif;
+    font-family: "Playfair Display", serif;
+  }
+  .Terms-All {
+    background-color: rgb(122, 122, 89);
+    /* width: 100%; */
+  }
+  .Terms-h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-family: "Oswald", sans-serif;
+    font-family: "Playfair Display", serif;
+  }
