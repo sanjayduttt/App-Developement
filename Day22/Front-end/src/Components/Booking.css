@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Playfair+Display:wght@500&display=swap");
+.bookingApp {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  /* padding: 20px; */
+  background-color: #b5d4f3;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.bookingContainer {
+  height: 92.2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url("C:\React\skct\src\components\Img\hlo2.jpg");
+}
+
+.bookingContainerForm {
+  width: 40%;
+  background-color: #aceef347;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: #007bff;
+}
+
+/* Styling for the BookingPage component */
+.BookingPage {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for form elements */
+.Booking-Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+.Booking-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: "Lato", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+.Booking-input {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto Slab', serif;
+}
+.Booking-input:hover {
+  background-color: #86efd0;
+}
+.Booking-input1 {
+  width: 64%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Slab', serif;
+}
+.Booking-input1:hover {
+  background-color: #86efd0;
+}
+
+.Booking-Button {
+  background-color: #007bffe2;
+  color: #fff;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+.Booking-Button:hover {
+  background-color: #0f559f;
+}
