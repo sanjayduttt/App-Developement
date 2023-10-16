@@ -1,0 +1,28 @@
+/* About.css */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Dancing+Script&family=Kanit&display=swap');
+
+.about-container {
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  text-align: center;
+  background-color: rgba(238, 168, 143, 0.686);
+}
+
+.about-container h1 {
+  font-size: 3rem;
+  margin-bottom: px;
+}
+
+.about-container p {
+  font-family: 'Crimson Text', serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Kanit', sans-serif;
+  font-size:1.4rem;
+margin-left: 4%;
+margin-right: 3%;
+ 
+  
+}
