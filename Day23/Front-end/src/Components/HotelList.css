@@ -1,0 +1,163 @@
+/* Styles for the container div */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display:wght@500&display=swap');
+.hotel-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(144, 215, 248);
+  }
+  
+  /* Styles for the page title */
+  .Hotel-h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the hotel grid */
+  .hotel-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards in each row */
+    grid-gap: 80px;
+
+    
+  }
+  
+  /* Styles for each hotel card */
+  .hotel-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    text-align: center;
+    perspective: 1000px; 
+    transform-style: preserve-3d; 
+    transition: transform 0.8s;
+    height: 450px;
+    width: 400px;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+    
+  }
+  
+  /* Styles for front of the card */
+  .hotel-front{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-right: 70px;
+    position: absolute;
+    transform: rotateY(0deg); 
+  }
+  
+  /* Styles for back of the card */
+  .back {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 20px; */
+    position: absolute;
+    transform: rotateY(180deg); 
+    background-color: rgb(175, 236, 236);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+  }
+  .back p{
+    text-align: left;
+  }
+  /* Styles for hotel names */
+  .Hotel-h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 10px;
+  }
+  
+  /* Styles for hotel images */
+  .Hotel-Img {
+    height: 220px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+  }
+  
+  /* Styles for available spots */
+  .available-spots {
+    color: #666;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  /* Styles for the description */
+  .description {
+    color: #333;
+    font-size: 16px;
+    margin: 10px;
+    display: none;
+    font-family: "Lato", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto Slab", serif;
+  }
+  .location{
+    padding: 2%;
+    font-family: "Lato", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto Slab", serif;
+
+  }
+  
+  /* Styles for the "Book Now" button */
+  .book-now-button,
+  .show-more-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 80%;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: "Lato", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto Slab", serif;
+   
+  }
+  
+  /* Hover effect for the buttons */
+  .book-now-button:hover,
+  .show-more-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for the expanded state */
+  .expanded {
+    transform: rotateY(180deg); 
+  }
+  
+  /* Styles for showing description in expanded state */
+  .expanded .back .description {
+    display: block;
+  }

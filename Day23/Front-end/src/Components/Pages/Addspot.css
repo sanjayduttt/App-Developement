@@ -1,0 +1,59 @@
+
+.spot-container {
+   width: 30%;
+    margin: 0 auto;
+    padding: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e92121;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .Spot-con{
+    background-color: aqua;
+    height: 100vh;
+  }
+  
+  /* Form title style */
+  .Spot-h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Label style */
+  .spot-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .spot-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* File input style */
+  .spot-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Button style */
+  .spot-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  .spot-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add custom styles for form validation messages, if needed */
+  
+  
